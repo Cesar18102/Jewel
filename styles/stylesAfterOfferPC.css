@@ -1,0 +1,12 @@
+﻿﻿html,body{padding: 0px; margin: 0px;}
+.afterOfferDiv{
+	margin-top: 15%;
+	margin-left: 15%;
+	margin-right: 15%;
+	text-indent: 0%;
+}
+.afterOfferDiv text{
+	font-size: 1em;
+	color: #B57B37;
+	font-family: Gill Sans Extrabold, cursive;
+}

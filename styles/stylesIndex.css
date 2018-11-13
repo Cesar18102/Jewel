@@ -1,0 +1,9 @@
+﻿html,body{margin:0px; padding: 0px;}
+#headIFrame{
+	z-index: 999;
+	position: fixed;
+    overflow-y: hidden;
+}
+#bodyIFrame{
+	z-index: 1;
+}

@@ -1,0 +1,185 @@
+﻿﻿html,body{padding: 0px; margin: 0px;}
+/*subHeader*/
+.optionalMenu{
+	display: none;
+	height: 5vh;
+	width: 100%;
+	background-color: #082F44;
+}
+.menuTable{
+	display: table;
+}
+.menuRow{
+	display: table-row;
+}
+.menuOption{
+	display: table-cell;
+}
+a, .capper, .idMarker, .bagMarker, .modelsCap, .modelTextDiv, .buyButtonDiv{
+	color: #B57B37;
+	font-size: 1.5vh;
+	font-family: Gill Sans Extrabold;
+}
+a{
+	vertical-align: top;
+	text-decoration: none;
+}
+.vertical{
+	height: 5vh;
+	width: 0.15vw;
+
+	margin-left: 2vw;
+	margin-right: 2vw;
+	background-color: #6B200A;
+}
+.horisontal{
+	position: absolute;
+	width: 100%;
+	height: 0.15vw;
+	background-color: #6B200A;
+}
+/*subHeader*/
+
+.capper{
+	width: 98%;
+	height: 2vh;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-left: 1%;
+	margin-top: 2vh;
+	background-color: #082F44;
+	border-top: 0.15vw solid #6B200A;
+	border-top-left-radius: 3vh;
+	border-top-right-radius: 3vh;
+}
+.wrapper{
+	width: 97%;
+	margin-left: 1%;
+	padding-left: 0.5%;
+	padding-right: 0.5%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+
+	background-color: #6B200A;
+	border-bottom-left-radius: 3vh;
+	border-bottom-right-radius: 3vh;
+}
+.product{
+	width: 32vw;
+	height: 30vh;
+	border-radius: 3vh;
+	background-color: #113924;
+}
+.wrapper td{
+	border-right: 0.15vw solid #6B200A;
+	border-left: 0.15vw solid #6B200A;
+	border-top: 0.5vh solid #6B200A;
+	border-bottom: 0.5vh solid #6B200A;
+}
+.modelInfo{
+	width: 100%;
+	height: 50%;
+	margin-bottom: 5%;
+	display: inline-flex;
+}
+.markerIdDiv{
+	width: 50%;
+	display: contents;
+}
+.idMarker, .buyButtonDiv{
+	height: 10%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-color: #082F44;
+	text-align: center;
+}
+.idMarker{
+	border-top-left-radius: 3vh;
+	border-bottom-right-radius: 3vh;
+	border-right: 0.15vw solid #6B200A;
+	border-bottom: 0.15vw solid #6B200A;
+}
+.bagMarker{
+	cursor: hand;
+	width: 80%;
+	height: 10%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border-top-right-radius: 3vh;
+	border-bottom-right-radius: 3vh;
+	border: 0.15vw solid #082F44;
+	color: #000000;
+	text-align: center;
+}
+.imgWrapper{
+	width: 50%;
+	height: 100%;
+	position: relative;
+	top: 0%;
+	left: 0%;
+}
+.buyButtonDiv{
+	cursor: hand;
+	border-top-right-radius: 3vh;
+	border-bottom-left-radius: 3vh;
+	border-bottom: 0.15vw solid #6B200A;
+}
+.modelImg{
+	height: auto;
+	width: 66%;
+	position: relative;
+	margin-top: 7%;
+	left: 17.5%;
+}
+.modelTextDiv{
+	width: 95%;
+	height: 45%;
+	display: table;
+	font-size: 0.9vh;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+.modelsCap{
+	font-size: 1.5vh;
+	margin-left: 2.5%;
+	margin-top: 2.5%;
+	display: table-caption;
+}
+.modelsList{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.modelListRow{
+	display: table-row;
+}
+.modelListCell{
+	display: table-cell;
+	padding-top: 2.5%;
+}
+.FB{
+	background-color: rgba(0, 158, 255, 0.6);
+}
+.FS{
+	background-color: rgba(0, 255, 0, 0.6);
+}
+.FF{
+	background-color: rgba(250, 250, 0, 0.6);
+}
+.FT{
+	background-color: rgba(255, 0, 0, 0.6);
+}
+.Змейка{
+	font-size: 1vh;
+	background-color: rgba(255, 153, 0, 0.6);
+}
+.Планка{
+	font-size: 1vh;
+	background-color: rgba(0, 255, 110, 0.6);
+}
+.FP_М{
+	background-color: rgba(140, 0, 255, 0.6);
+}
+.FP_Б{
+	background-color: rgba(255, 0, 80, 0.6);
+}

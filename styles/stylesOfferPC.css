@@ -1,0 +1,37 @@
+﻿﻿html,body{padding: 0px; margin: 0px;}
+.offerDiv{
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-indent: 0%;
+}
+#send{
+	width: 25vw;
+	height: 7vh;
+	
+	border-width: 0px;
+	border-radius: 3vh;
+	
+	color: white;
+	font-size: 3vh;
+	font-family: Gill Sans Extrabold, cursive;
+	
+	background-color: #6B200A;
+}
+#clientComment{
+	min-width: 15vw;
+	min-height: 17vh;
+	max-width: 15vw;
+	max-height: 17vh;
+}
+.inputText{
+	width: 15vw;
+}
+.inputPrevText{
+	font-size: 1em;
+	color: #B57B37;
+	font-family: Gill Sans Extrabold, cursive;
+}
+.pay24But{
+	
+}

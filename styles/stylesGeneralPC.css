@@ -1,0 +1,13 @@
+﻿#infoTable p,#wrapper p,.offerDiv,.afterOfferDiv{
+	padding: 1.5%;
+	border-radius: 18px;
+	background-color: #082F44;
+	
+	font-size: 1em;
+	color: #B57B37;
+	text-indent: 2em;
+	font-family: Gill Sans Extrabold, cursive;
+}
+.cbalink{
+	display: none;
+}

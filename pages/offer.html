@@ -1,0 +1,87 @@
+<html id = 'stylesOffer'>
+			<head>
+				<meta charset = "UTF-8"/>
+				<script type = "text/javascript" language="JavaScript" src="../scripts/libs/glm-ajax.js"></script>
+				<script type = "text/javascript" language="JavaScript" src="../scripts/libs/jquery-3.3.1.js"></script>
+				<script type = "text/javascript" src = "../scripts/platform.js"></script>
+				<script type = "text/javascript" src = "../scripts/systemSwaping.js"></script>
+				<link rel = "icon" type = "image/png" href = "imgs/JM.png"/>
+			</head>
+			<body background = "../imgs/back.jpg" bgcolor = "#A46820" style = "background-size: 100%" style = "margin-bottom: 5%">
+				<center>
+					<div class = "offerDiv" id = "offerDiv">
+						<form id = "infoForm">
+							<tfoot><text>Спасибо, что выбрали наш продукт! <h2> Внимание! Доставка осуществляется за счет получателя </h2></text><tfoot>
+							<table cellspacing = "10vh">
+								<tr>
+									<td><text class = "inputPrevText">Способ доставки: </text></td>
+									<td>
+										<select id = "checkedPostWay" name = "checkedPostWay" class = "inputText" tabindex = "1" required>
+											<option>Укрпочта</option>
+											<option>Новая Почта</option>
+										</select>
+									</td>
+									
+									<td><text class = "inputPrevText">Модель: </text></td>
+									<td><text id = "checkedModel" name = "checkedModel" class = "inputPrevText"></text></td>
+								</tr>
+								<tr>
+									<td><text class = "inputPrevText">Город: </text></td>
+									<td id = "cityCell">
+                                                                             
+									</td>
+
+									<td><text class = "inputPrevText">Материал: </text></td>
+									<td>
+										<select id = "checkedMaterial" name = "checkedMaterial" class = "inputText" tabindex = "7" required>
+										</select>
+									</td><!--maybe list-->
+								</tr>
+								<tr>
+									<td>
+										<text class = "inputPrevText" id = "addressPrevText">Адрес: </text>
+										<text class = "inputPrevText" id = "newPostSectionPrevText" hidden = "true">Отделение Новой Почты: </text>
+									</td>
+									<td id = "addressCell">
+
+									</td>
+
+									<td><text class = "inputPrevText">Количество: </text></td>
+									<td><input id = "checkedCount" name = "checkedCount" class = "inputText" pattern = "\d+" value = "1" tabindex = "8" required></input></td>
+								</tr>
+								<tr>
+									<td><text class = "inputPrevText">ФИО: </text></td>
+									<td><input id = "clientName" name = "clientName" class = "inputText" type = "text" tabindex = "4" placeholder = "Иванов Иван Иванович" required></input></td>
+																
+									<td><text class = "inputPrevText">Стоимость (без доставки): </text></td>
+									<td><text class = "inputPrevText" id = "cost"></text></td>
+								</tr>
+								<tr>
+									<td><text class = "inputPrevText">Телефон: </text></td>
+									<td><input id = "clientPhone" name = "clientPhone" class = "inputText" placeholder = "+380XXXXXXXXX" pattern = "\+380\d{9}" tabindex = "5" required></input></td>
+                                          
+                                                                        <td><text class = "inputPrevText">Ориентировочная стоимость доставки: </text></td>
+									<td><text class = "inputPrevText" id = "deliveryCost">12.48 грн</text></td>
+								</tr>
+								<tr>
+									<td><text class = "inputPrevText">e-mail: </text></td>
+									<td><input id = "clientMail" name = "clientMail" class = "inputText" type = "email" placeholder = "myemail@gmail.com" tabindex = "6" required></input></td>
+								</tr>
+								<tr>
+									<td><text class = "inputPrevText">Комментарий: </text></td>
+									<td><textarea id = "clientComment" name = "clientComment" maxlength = "200" tabindex = "9"></textarea></td>
+								</tr>
+								<tr>
+									<td colspan = "4">
+										<center><button id = "send" tabindex = "10">Проверить введенные данные!</button></center>
+									</td>
+								</tr>
+							</table>
+						</form>
+					<div>
+				</center>
+				<script src = "../scripts/offer/OfferController.js"></script>
+				<script src = "../scripts/offer/OfferModel.js"></script>
+				<script src = "../scripts/offer/OfferView.js"></script>
+			</body>
+		</html>

@@ -1,0 +1,41 @@
+﻿html,body{margin:0px; padding: 0px;}
+.header{
+	width: 100%;
+    height: 100%;
+    position: fixed;
+	background-color: #082F44;
+}
+.menu{
+	width: 11vw;
+	height: 70%;
+	float: right;
+	margin-right: 1%;
+	margin-top: 0.525%;
+	
+	border-width: 0px;
+	border-radius: 20vh;
+	
+	color: white;
+	font-size: 27vh;
+	font-family: Gill Sans Extrabold, cursive;
+	
+	background-color: #6B200A;
+}
+.menu:hover{
+	height: 75%;
+	margin-top: 0.4375%;
+}
+.header img{
+	width: 25%;
+	height: 90%;
+	
+	margin-top: 0.175%;
+	margin-left: 20%;
+	position: fixed;
+}
+.help{
+	margin-left: 1.5%;
+	color: #B57B37;
+	font-size: 30vh;
+	font-family: Gill Sans Extrabold, cursive;
+}
